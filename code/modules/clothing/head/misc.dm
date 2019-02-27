@@ -323,3 +323,13 @@
 	flags_inv = HIDEMASK|HIDEEARS|HIDEEYES|HIDEFACE|BLOCKHAIR
 	body_parts_covered = HEAD|FACE|EYES
 	flash_protection = FLASH_PROTECTION_MAJOR
+	
+//Bluebay-ported
+/obj/item/clothing/head/golhood
+	name = "brown hood"
+	desc = "An anachronistic-looking hood."
+	icon_state = "golhood"
+	item_state = "golhood"
+	flags_inv = HIDEEARS|BLOCKHAIR
+	body_parts_covered = HEAD
+	armor = list(melee = 15)
