@@ -137,3 +137,17 @@
 	armor = list(melee = 0, bullet = 0, laser = 0,energy = 0, bomb = 0, bio = 0, rad = 0)
 	siemens_coefficient = 1.0
 
+//Necromancer
+/obj/item/clothing/head/wizard/necromancer
+	name = "necromancer hood"
+	desc = "Klaatu, Barada, Nikto."
+	icon_state = "necrohood"
+	siemens_coefficient = 0.8
+	body_parts_covered = HEAD|FACE|EYES
+
+/obj/item/clothing/suit/wizrobe/necromancer
+	name = "necromancer robe"
+	desc = "There is something eerie, eldritch and evil in this robe."
+	icon_state = "necrorobe"
+	item_state = "necrorobe"
+	body_parts_covered = UPPER_TORSO|LOWER_TORSO|ARMS|HANDS|LEGS|FEET
