@@ -212,3 +212,24 @@
 	item_state_slots = list(
 		slot_hand_str = "black"
 		)
+
+//Bluebay-sec
+/obj/item/clothing/head/warden/drill					// TODO: move all head clothing to /head
+	name = "warden's drill hat"
+	desc = "You little scumbag! I've got your name! I've got your ass! You will not laugh! You will not cry! You will learn by the numbers and I will teach you!"
+	icon_state = "wardendrill"
+
+
+/obj/item/clothing/suit/storage/toggle/bomber/secjacket
+	name = "security jacket"
+	desc = "Someone might say it looks old-fashined, but others would say that's nostalgic."
+	icon_state = "secjacket"
+	item_state = "secjacket"
+	icon_open = "secjacket_open"
+	icon_closed = "secjacket"
+	body_parts_covered = UPPER_TORSO|ARMS
+	cold_protection = UPPER_TORSO|ARMS
+	min_cold_protection_temperature = T0C - 20
+	siemens_coefficient = 0.8
+	armor = list(melee = 20, bullet = 25, laser = 15, energy = 10, bomb = 15, bio = 0, rad = 0)
+	valid_accessory_slots = list(ACCESSORY_SLOT_INSIGNIA)
