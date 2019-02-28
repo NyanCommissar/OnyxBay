@@ -59,3 +59,10 @@
 	display_name = "tacticool turtleneck"
 	path = /obj/item/clothing/under/syndicate/tacticool
 	slot = slot_w_uniform
+	
+/datum/gear/tactical/secjacket
+	display_name = "old-fashined security jacket"
+	path = /obj/item/clothing/suit/storage/toggle/bomber/secjacket
+	cost = 3
+	allowed_roles = ARMORED_ROLES
+	slot = slot_wear_suit
